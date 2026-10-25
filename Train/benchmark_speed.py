@@ -3,7 +3,7 @@ import time
 import torch
 from PIL import Image
 
-
+from utils.bbox_to_mask import bbox_to_mask
 from llava.model.builder import load_pretrained_model
 from utils.get_bbox import get_bbox  
 from utils.extract_features import extract_semantic_features
