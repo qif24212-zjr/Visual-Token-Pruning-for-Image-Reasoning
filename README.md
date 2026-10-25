@@ -60,7 +60,6 @@ Visual-Token-Pruning-for-Image-Reasoning/
 │   ├── train_predictor.py
 │   ├── train_predictor_dataset.py
 │   └── train_predictor_real.py
-├── evaluation/                       # Evaluation and testing scripts
 │   ├── eval_mme_fast.py
 │   ├── eval_predictor.py
 │   ├── eval_scienceqa_fast.py
@@ -73,7 +72,6 @@ Visual-Token-Pruning-for-Image-Reasoning/
 ├── pipeline/                         # One-click execution scripts
 │   ├── run_full_pipeline.py
 │   └── run_llava_semantic.py
-├── utils/                            # Utility scripts (YOLO, Mask, Visualization)
 │   ├── bbox_to_mask.py
 │   ├── get_bbox.py
 │   ├── global_mask.py
@@ -89,9 +87,8 @@ Notes:
 
 - `data_processing/` contains scripts for building training datasets, generating labels, and extracting features.
 - `models/`  contains the core components, including LLaVA architecture, semantic predictor, and various encoders.
-- `train/ and evaluation/` contain corresponding training and evaluation scripts for various benchmarks.
+- `train/` contain corresponding training and evaluation scripts for various benchmarks.
 - `pipeline/` provides one-click execution scripts.
-- `utils/` includes object detection (YOLO), mask generation, and visualization tools.
 # 3. Datasets 📦
 The following datasets are used in our experiments. Please download them and update the paths in the configuration or script files accordingly.
 ### VQAv2 (Visual Question Answering v2)
