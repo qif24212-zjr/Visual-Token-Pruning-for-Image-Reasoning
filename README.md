@@ -95,7 +95,7 @@ Notes:
 # 3. Datasets 📦
 The following datasets are used in our experiments. Please download them and update the paths in the configuration or script files accordingly.
 ### VQAv2 (Visual Question Answering v2)
-- **Official website:**  https://visualqa.org/
+- **Official website:**  https://visualqa.org
 ### ScienceQA
 - **Official repository:** https://scienceqa.github.io.
 ### MME (Multimodal Evaluation Benchmark)
