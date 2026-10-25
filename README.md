@@ -79,8 +79,6 @@ Visual-Token-Pruning-for-Image-Reasoning/
 │   ├── yolo_cues.py
 │   ├── yolo_mask.py
 │   └── visualize_tokens.py
-├── checkpoints/                      # Store your .pt / .pth files here (Not tracked by Git)
-├── requirements.txt                  # Environment dependencies
 └── README.md
 ```
 Notes:
